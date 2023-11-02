@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.correo{
+    color: rgb(20, 0, 199);
+    text-decoration: underline;
+}
+
+.asunto{
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+hr{
+    border: 2px solid #fff;
+}

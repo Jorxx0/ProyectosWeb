@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horario</title>
+
+    <style>
+        table {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            border: rgb(246, 214, 171);
+            text-align: center;
+            align-items: center;
+        }
+
+        .encab {
+            background-color: rgb(246, 214, 171);
+            color: #000;
+        }
+
+        .st {
+            font-weight: bold;
+        }
+
+        .recreo {
+            font-style: italic;
+        }
+
+        /**
+      .iso {
+        background-color: lightblue;
+        color: #000;
+      }
+
+      .gbd {
+        background-color: lightcoral;
+        color: #000;
+      }
+
+      .fol {
+        background-color: lightcyan;
+        color: #000;
+      }
+
+      .pare {
+        background-color: lightgoldenrodyellow;
+        color: #000;
+      }
+
+      .fhw {
+        background-color: lightgray;
+        color: #000;
+      }
+
+      .ldm {
+        background-color: lightgreen;
+        color: #000;
+      }
+
+      .recreo {
+        background-color: lightsalmon;
+        color: #000;
+      }
+**/
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr class="encab">
+                <th colspan="7">Horario de ASIR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="encab">
+                <td rowspan="8">Horario</td>
+                <td>Días</td>
+                <td class="st">Lunes</td>
+                <td class="st">Martes</td>
+                <td class="st">Miercoles</td>
+                <td class="st">Jueves</td>
+                <td class="st">Viernes</td>
+            </tr>
+            <tr>
+                <td class="st">8:30</td>
+                <td class="iso">ISO</td>
+                <td class="pare">PARE</td>
+                <td class="pare" rowspan="2">PARE</td>
+                <td class="pare" rowspan="2">PARE</td>
+                <td class="ldm" rowspan="2">LDM</td>
+            </tr>
+            <tr>
+                <td class="st">9:25</td>
+                <td class="gbd" rowspan="2">GBD</td>
+                <td class="iso" rowspan="2">ISO</td>
+            </tr>
+            <tr>
+                <td class="st">10:20</td>
+                <td class="gbd">GBD</td>
+                <td class="iso">ISO</td>
+                <td class="fol">FOL</td>
+            </tr>
+            <tr>
+                <td class="st">11:15</td>
+                <td colspan="5" class="recreo">RECREO</td>
+            </tr>
+            <tr>
+                <td class="st">11:45</td>
+                <td class="fol">FOL</td>
+                <td class="gbd" rowspan="2">GBD</td>
+                <td class="gbd">GBD</td>
+                <td class="iso">ISO</td>
+                <td class="fhw" rowspan="3">FHW</td>
+            </tr>
+            <tr>
+                <td class="st">12:40</td>
+                <td class="pare" rowspan="2">PARE</td>
+                <td class="iso" rowspan="2">ISO</td>
+                <td class="ldm" rowspan="2">LDM</td>
+            </tr>
+            <tr>
+                <td class="st">13:35</td>
+                <td class="fol">FOL</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br /><br />
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="text-align: center">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr style="text-align: center">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr style="text-align: center">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

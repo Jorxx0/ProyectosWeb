@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Veterinario</title>
+  </head>
+
+  <body>
+    <h1>Formulario Veterinario</h1>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur.
+    </p>
+
+    <form action="https://www.htmlquick.com/form-result.php" target="_blank">
+      <fieldset>
+        <legend>Nombre Mascota</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
+        <br /><br />
+        <label for="apellido">Apellido Familiar</label>
+        <input type="text" id="apellido" />
+        <br /><br />
+        <input type="radio" id="perro" name="mascota" value="perro" />
+        <label for="perro">Perro</label>
+        <input type="radio" id="gato" name="mascota" value="gato" />
+        <label for="gato">Gato</label>
+        <input type="radio" id="otro" name="mascota" value="otro" />
+        <label for="otro">Otro</label>
+      </fieldset>
+      <fieldset>
+        <legend>Datos de la mascota</legend>
+        <input type="checkbox" name="identificativo" id="identificativo" />
+        <label for="identificativo">Identificativo</label>
+        <br /><br />
+        <input type="checkbox" name="cartilla" id="cartilla" />
+        <label for="cartilla">Cartilla</label>
+        <br /><br />
+        <textarea
+          name="observacion"
+          id="observacion"
+          cols="30"
+          rows="10"
+          placeholder="Observaciones..."></textarea>
+      </fieldset>
+      <input type="button" name="Enviar" value="Enviar">
+    </form>
+  </body>
+</html>

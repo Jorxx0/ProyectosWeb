@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Solicitud de eDNI</h1>
+    <img src="dni_blanco.jpg" alt="" style="width: 25%" />
+
+    <form action="#" method="get">
+        <br />
+
+        <fieldset>
+            <legend>Login</legend>
+            <label for="user">Usuario: </label>
+            <input type="text" id="user" name="user" placeholder="Usuario" minlength="5" required />
+
+            <label for="pw">Contraseña: </label>
+            <input type="password" id="pw" name="pw" minlength="8" maxlength="14" required/>
+        </fieldset>
+        <br />
+        <fieldset>
+            <label for="Localidad">Localidad: </label>
+            <input type="text" id="Localidad" value="Merida" /><br><br>
+
+            <legend>Solicitud DNI</legend>
+            <input type="radio" id="dninuevo" />
+            <label for="dninuevo">1er DNI</label>
+            <input type="radio" id="renovar" checked />
+            <label for="renovar">Renovar DNI</label>
+
+            <br /><br />
+
+            <input type="checkbox" id="DNI_Caducado" checked />
+            <label for="DNI_Caducado">DNI_Caducado</label>
+            <input type="checkbox" id="3fotos" />
+            <label for="3fotos">3_Fotos</label>
+            <input type="checkbox" id="Librofamilia" />
+            <label for="Librofamilia">Libro_Familia</label>
+            <input type="checkbox" id="Padron" />
+            <label for="Padron">Padrón</label>
+
+            <br /><br />
+
+            <label for="email">Correo electrónico: </label>
+            <input type="email" id="email" name="email" placeholder="user@dominio.com" />
+            <label for="tel">Teléfono: </label>
+            <input type="tel" id="tel" name="tel" pattern="[6]{1}[0-9]{8}" placeholder="612345678"/>
+            <label for="fecha">Correo electrónico: </label>
+            <input type="date" id="fecha" name="fecha" />
+
+            <br /><br />
+
+            <label for="observaciones">Observaciones:</label><br />
+            <textarea name="" id="" cols="20" rows="5" placeholder="Añade tu comentario" ></textarea>
+        </fieldset>
+
+        <br />
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+
+</html>

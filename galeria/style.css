@@ -1,0 +1,13 @@
+body{
+    padding: 2%;
+}
+
+h1{
+    margin-bottom: 5%;
+    text-shadow: 2px 2px 20px;
+}
+
+img{
+    box-shadow: 2px 2px 20px;
+    width: 70%;
+}

@@ -1,0 +1,14 @@
+.gif{
+    width: 50px;
+    height: 50px;
+}
+
+.jpg{
+    width: 35px;
+    height: 25px;
+}
+
+.png, .svg{
+    width: 250px;
+    height: 250px;
+}
